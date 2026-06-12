@@ -23,12 +23,14 @@ header {
   display: flex;
   justify-content:space-between;
   justify-items: center;
+
 }
 
 header .logo{
   margin: 30px;
-  font-size: 16px;
+  font-size: 200%;
   font-weight: 700;
+  margin-left: 50px;
 }
 
 header .menu {
@@ -40,7 +42,7 @@ header .menu {
 }
 
 header .menu p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 
 }
@@ -59,5 +61,61 @@ header .menu .but {
 
 header .menu .but p{
   color: #fff;
+  padding: 15px;
+}
+
+
+/*  MAIN  */
+
+.wraper {
+  background: #A0F1BD;
+  display: flex;
+  justify-content:space-between;
+}
+
+.wraper .left img{
+  width: 500px; 
+  height: auto;
+
+}
+
+.wraper .left {
+  margin: 100px 0px;
+  margin-right: 100px;
+  width: 500px; 
+  height: auto;
+}
+
+
+.wraper .right h1{
+  font-size: 100px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  letter-spacing: -1.5px;
+}
+
+.wraper .right {
+  width: 1000px;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.wraper .right p {
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+
+.wraper .right .but {
+  background: #2E4F21;
+  display: flex;
+  border-radius: 30px;
   padding: 10px;
+  width: 200px;
+  height: 20px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.wraper .right .but p {
+  color: white;
+  font-size: 14px;
 }
