@@ -378,5 +378,139 @@ header .menu .but p{
   color: #506349;
 }
 
-/*   next   */
+/*   Team   */
 
+.happy {
+  font-size: 70px;
+  font-weight: 400;
+  color: #2E4F21;
+  text-align: center;
+  margin: 90px 0;
+}
+
+.main .team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .team .people {
+  margin-left: 140px;
+  width: 400px;
+
+}
+
+.main .team .people .first {
+  background: #2E4F21;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.main .team .people .first hr {
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  width: 340px;
+}
+
+.main .team .people .first h3 {
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.main .team .people .first p {
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+
+
+.main .team .people .second {
+
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.main .team .people .second hr {
+  color: #506349;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  width: 340px;
+}
+
+.main .team .people .second h3 {
+  color: #506349;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.main .team .people .second p {
+  color: #506349;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+
+.main .team .people .third {
+
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.main .team .people .third hr {
+  color: #506349;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  width: 340px;
+}
+
+.main .team .people .third h3 {
+  color: #506349;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.main .team .people .third p {
+  color: #506349;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.line {
+  width: 2px;
+  height: 500px;
+  background: #2E4F21;
+  margin-left: -4px;
+}
+
+.main .team .taylor {
+  width: 770px;
+  margin-right: 300px;
+}
+
+.main .team .taylor h3 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.main .team .taylor .face {
+  display: flex;
+  justify-content: baseline;
+  
+}
+
+.main .team .taylor .face p {
+  margin-left: 20px;
+  margin-top: 12px;
+}
