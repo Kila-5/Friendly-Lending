@@ -166,3 +166,66 @@ header .menu .but p{
   font-size: 12px;
   padding-top: 2px;
 }
+
+.main .blocks {
+  display: flex;
+  justify-content:last baseline;
+  background: #D2F8DC;
+  width: 1200px;
+  margin: 20px 0;
+  margin-left: 20px;
+  border-radius: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.main .blocks img {
+  margin: 80px;
+  margin-left: 150px;
+  width: auto;
+  height: auto;
+}
+
+.main .blocks .text {
+  width: 450px;
+  padding-left: 40px;
+}
+
+.main .blocks .text h3 {
+  font-weight: none;
+  margin: 40px 0;
+  font-size: 40px;
+  color: #2E4F21;
+}
+
+.main .blocks .text p {
+  color: #2E4F21;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.main .blocks .text .buttons {
+  display: flex;
+  justify-content:last baseline;
+  margin-left: -20px;
+  
+}
+
+.main .blocks .text .buttons div {
+  display: flex;
+  margin: 0 20px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  background-color: white;
+  height: 20px;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px 5px;
+}
+
+.main .blocks .text .buttons div p {
+  font-size: 14px;
+  color: #506349;
+}
