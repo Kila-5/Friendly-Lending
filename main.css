@@ -141,7 +141,7 @@ header .menu .but p{
 .content .slim h1 {
   color: #2E4F21;
   font-size: 70px;
-  font-weight: normal;
+  font-weight: 500;
   letter-spacing: -1.5px;
   margin-bottom: 30px;
 }
@@ -167,6 +167,7 @@ header .menu .but p{
   padding-top: 2px;
 }
 
+/* main  */
 .main .blocks {
   display: flex;
   justify-content:last baseline;
@@ -177,6 +178,8 @@ header .menu .but p{
   border-radius: 30px;
   text-align: left;
   margin-bottom: 20px;
+  padding-top: 50px;
+  padding-right: 100px;
 }
 
 .main .blocks img {
@@ -184,6 +187,7 @@ header .menu .but p{
   margin-left: 150px;
   width: auto;
   height: auto;
+  
 }
 
 .main .blocks .text {
@@ -192,7 +196,7 @@ header .menu .but p{
 }
 
 .main .blocks .text h3 {
-  font-weight: none;
+  font-weight: 400;
   margin: 40px 0;
   font-size: 40px;
   color: #2E4F21;
@@ -229,3 +233,150 @@ header .menu .but p{
   font-size: 14px;
   color: #506349;
 }
+
+/*   main 2  */
+.main {
+  display: flexbox;
+  
+}
+
+.main .block2 {
+  display: flex;
+  justify-content: baseline;
+  background: #D2F8DC;
+  width: 1200px;
+  margin: 30px 0;
+  margin-right: 20px;
+  border-radius: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  margin-left: auto;
+  padding-left: 100px;
+}
+
+.main .block2 .text {
+  width: 450px;
+  padding-left: 40px;
+}
+
+.main .block2 .text h3 {
+  font-weight: 400;
+  margin: 40px 0;
+  font-size: 40px;
+  color: #2E4F21;
+  padding-top: 50px;
+}
+
+.main .block2 .text p {
+  color: #2E4F21;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.main .block2 .text .buttons div {
+  display: flex;
+  margin: 0 20px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  background-color: white;
+  height: 20px;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px 5px;
+}
+
+.main .block2 .text .buttons {
+  display: flex;
+  justify-content:last baseline;
+  margin-left: -20px;
+}
+
+.main .block2 .text .buttons div p {
+  font-size: 14px;
+  color: #506349;
+}
+
+.main .block2 img {
+  margin: 80px;
+  margin-left: 150px;
+  width: auto;
+  height: auto;
+}
+
+/*    main 3    */
+
+.main .block3 {
+  display: flex;
+  justify-content: baseline;
+  background: #D2F8DC;
+  width: 1200px;
+  margin: 30px 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-right: 100px;
+  right: 0;
+
+}
+
+.main .block3 img {
+  margin: 80px;
+  margin-left: 150px;
+  width: 380px;
+  height: auto;
+}
+
+
+
+.main .block3 .text {
+  width: 450px;
+  padding-left: 40px;
+}
+
+.main .block3 .text h3 {
+  font-weight: 400;
+  margin: 40px 0;
+  font-size: 40px;
+  color: #2E4F21;
+  padding-top: 50px;
+}
+
+.main .block3 .text p {
+  color: #2E4F21;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.main .block3 .text .buttons {
+  display: flex;
+  justify-content:last baseline;
+  margin-left: -20px;
+  
+}
+
+.main .block3 .text .buttons div {
+  display: flex;
+  margin: 0 20px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  background-color: white;
+  height: 20px;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px 5px;
+}
+
+.main .block3 .text .buttons div p {
+  font-size: 14px;
+  color: #506349;
+}
+
+/*   next   */
+
