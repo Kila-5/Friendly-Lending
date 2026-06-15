@@ -391,6 +391,7 @@ header .menu .but p{
 .main .team {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 150px;
 }
 
 .main .team .people {
@@ -514,3 +515,128 @@ header .menu .but p{
   margin-left: 20px;
   margin-top: 12px;
 }
+
+.main .break {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+.main .nobel {
+  display: flex;
+  justify-content:space-between;
+  margin-left: 80px;
+  margin-bottom: 250px;
+  
+}
+
+.main .nobel p {
+  width: 800px;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.main .nobel h2 {
+  font-size: 70px;
+  font-weight: 400;
+  width: 700px;
+}
+
+
+
+.main .for {
+  display: flex;
+  justify-content: baseline;
+  margin-left: 90px;
+  margin-bottom: 300px;
+}
+
+.for .line {
+  width: 2px;
+  height: 450px;
+  background: #2E4F21;
+}
+
+.for .first {
+  width: 420px;
+  margin: 30px 60px;
+  margin-right: 140px;
+}
+
+.for .first img {
+  margin-bottom: 30px;
+}
+
+.for .first h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.for .first h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+} 
+
+.for .first p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+} 
+
+
+.for .second {
+  width: 500px;
+  margin: 30px 60px;
+  margin-right: 140px;
+}
+
+.for .second img {
+  margin-bottom: 30px;
+}
+
+.for .second h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.for .second h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+} 
+
+.for .second p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+} 
+
+.for .third {
+  width: 440px;
+  margin: 30px 60px;
+  margin-right: 140px;
+}
+
+.for .third img {
+  margin-bottom: 30px;
+}
+
+.for .third h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.for .third h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+} 
+
+.for .third p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+} 
